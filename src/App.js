@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './parent/Header';
+import Register from './parent/Register';
+import PerfectSolution from './parent/PerfectSolution';
+import Advertising from './parent/Advertising';
+import BusinessToolkit from './parent/BusinessToolkit';
+import Tune from './parent/Tune';
+import WantsToTalk from './parent/WantsToTalk';
+import Footer from './parent/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <Register/>
+    <PerfectSolution/>
+    <Advertising/>
+    <BusinessToolkit/>
+    <Tune/>
+    <WantsToTalk/>
+    <Footer/>
+    </>
   );
 }
 
